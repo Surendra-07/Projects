@@ -25,7 +25,7 @@
              echo "Enter all valid fields";
          exit;
      }
-     $sql="INSERT INTO customers(email,password,name,gender,age,address) VALUES ('$email','$password','$name','$gender','$age','$address')";
+     $sql="INSERT INTO customer(email,password,name,gender,age,address) VALUES ('$email','$password','$name','$gender','$age','$address')";
 
      $result= mysqli_query($conn,$sql);
     if(!$result)
@@ -35,7 +35,7 @@
      }
      else
      {
-        header("Location: dashboard.html");
+        header("Location: signup.php");
      }
      mysqli_close($conn);
  ?> 

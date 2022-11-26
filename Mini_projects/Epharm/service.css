@@ -21,7 +21,7 @@
   transition: 0.5s;
 }
 .card:hover {
-  color: white;
+  color: black;
 }
 card::before {
   content: "";
@@ -36,7 +36,7 @@ card::before {
 }
 .card:hover::before {
   left: 0%;
-  color: white;
+  color: black;
 }
 .container-fluid {
   background-image: url("blob-scene-haikei.svg");

@@ -518,7 +518,7 @@ input:nth-of-type(5):checked ~ main#carousel {
             </div>
             <div class="container">
                 <h5 class="product-name">COMBIFLAME</h5>
-                <h6>&#8377 30</h6>
+                <h6>₹30</h6>
                
                 <div></div>
             </div></div>
@@ -527,8 +527,8 @@ input:nth-of-type(5):checked ~ main#carousel {
                     <img src="crosin\crocin-pain-relief-tablet.png">
                 </div>
                 <div class="container">
-                    <h5 class="product-name">CROCIN</h5>
-                    <h6>&#8377 49</h6>
+                    <h5 class="product-name">Crocin</h5>
+                    <h6>₹49</h6>
                   
                 </div>
             </div>
@@ -536,16 +536,16 @@ input:nth-of-type(5):checked ~ main#carousel {
                 <div class="image-container">
                     <img src="Dettol\dettol-antiseptic-liquid-bottle-of-550-ml-2-1656923531.webp">
                 </div><div class="container">
-                    <h5 class="product-name">DETTOL-LIQUID</h5>
-                    <h6>&#8377 99</h6>
+                    <h5 class="product-name">Dettol-Liquid</h5>
+                    <h6>₹99</h6>
                    
                 </div></div><div class="card under49">
                     <div class="image-container">
                         <img src="Dolo\dolo-650mg-strip-of-15-tablets-2-1653986150.webp">
                     </div>
                     <div class="container">
-                        <h5 class="product-name">DOLO</h5>
-                        <h6>&#8377 29</h6>
+                        <h5 class="product-name">Dolo</h5>
+                        <h6>₹29</h6>
                        
                     </div>
                 </div>
@@ -554,8 +554,8 @@ input:nth-of-type(5):checked ~ main#carousel {
                         <img src="hansaplast\hansaplast-regular.webp">
                     </div>
                     <div class="container">
-                        <h5 class="product-name">HANSAPLAST</h5>
-                        <h6>&#8377 129</h6>
+                        <h5 class="product-name">Hansaplast</h5>
+                        <h6>₹129</h6>
                         
                     </div>
                 </div>
@@ -563,23 +563,23 @@ input:nth-of-type(5):checked ~ main#carousel {
                     <div class="image-container">
                         <img src="Meftal Spas\meftal-spas-tablet-2-1641531171.webp">
                     </div><div class="container">
-                        <h5 class="product-name">MEFTAL-SPAS</h5>
-                        <h6>&#8377 89</h6>
+                        <h5 class="product-name">Meftal-Spas</h5>
+                        <h6>₹89</h6>
                        
                     </div></div>
                     <div class="card under199">
                         <div class="image-container">
                             <img src="Multivitamin\pharmeasy-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-2-1666336677.webp">
                         </div><div class="container">
-                            <h5 class="product-name">MULTIVITAMINS</h5>
-                            <h6>&#8377 189</h6>
+                            <h5 class="product-name">MultiVitamins</h5>
+                            <h6>₹189</h6>
                            
                    </div></div><div class="card under49">
                          <div class="image-container">
                                 <img src="refresh eye drop\sswzofpcesatvgabnccq.webp">
                       </div><div class="container">
-                                <h5 class="product-name">REFRESH EYE DROPS</h5>
-                       <h6>&#8377 49</h6>
+                                <h5 class="product-name">Refresh eye drops</h5>
+                       <h6>₹49</h6>
                       
                       
                     </div>
@@ -591,8 +591,8 @@ input:nth-of-type(5):checked ~ main#carousel {
                       <img src="Saridon\ftsmbwoi0gmmxgluxdn4.webp">
                   </div>
                   <div class="container">
-                      <h5 class="product-name">SARIDON</h5>
-                      <h6>&#8377 50</h6>
+                      <h5 class="product-name">Saridon</h5>
+                      <h6>₹50</h6>
                      
                       <div></div>
                   </div></div>
@@ -601,8 +601,8 @@ input:nth-of-type(5):checked ~ main#carousel {
                         <img src="Sevlon\savlon-antiseptic-disinfectant-liquid-1000-ml-2-1658475751.webp">
                     </div>
                     <div class="container">
-                        <h5 class="product-name">SEVLON</h5>
-                        <h6>&#8377 50</h6>
+                        <h5 class="product-name">Sevlon</h5>
+                        <h6>₹50</h6>
                        
                         <div></div>
                     </div></div>
@@ -611,8 +611,8 @@ input:nth-of-type(5):checked ~ main#carousel {
                           <img src="Soframycin\soframycin-tube-of-30gm-skin-cream-1-1662962968.webp">
                       </div>
                       <div class="container">
-                          <h5 class="product-name">SOFRAMYCIN</h5>
-                          <h6>&#8377 50</h6>
+                          <h5 class="product-name">Soframycin</h5>
+                          <h6>₹50</h6>
                          
                           <div></div>
                       </div></div>
@@ -621,8 +621,8 @@ input:nth-of-type(5):checked ~ main#carousel {
                             <img src="Saridon\ftsmbwoi0gmmxgluxdn4.webp">
                         </div>
                         <div class="container">
-                            <h5 class="product-name">SARODON</h5>
-                            <h6>&#8377 50</h6>
+                            <h5 class="product-name">Saridon</h5>
+                            <h6>₹50</h6>
                            
                             <div></div>
                         </div></div> 
@@ -632,8 +632,8 @@ input:nth-of-type(5):checked ~ main#carousel {
                 <img src="./Images/pampers-premium-care-pants-diapers-medium-16-count-2-1666017922.jpg">
             </div>
             <div class="container">
-                <h5 class="product-name">PAMPERS  PREMIUM CARE PANTS DIAPERS</h5>
-                <h6>&#8377 288</h6>
+                <h5 class="product-name">Pampers Premium Care Pants Diapers</h5>
+                <h6>₹288</h6>
                
                 <div></div>
             </div></div>
@@ -642,8 +642,8 @@ input:nth-of-type(5):checked ~ main#carousel {
                     <img src="./Images/baby-wipes.jpg">
                 </div>
                 <div class="container">
-                    <h5 class="product-name">JOHNSON'S BABY WIPES PACKET</h5>
-                    <h6>&#8377 69.52</h6>
+                    <h5 class="product-name">Johnson'S Baby Wipes Packet</h5>
+                    <h6>₹69.52</h6>
                   
                 </div>
             </div>
@@ -651,16 +651,16 @@ input:nth-of-type(5):checked ~ main#carousel {
                 <div class="image-container">
                     <img src="./Images/vicks.jpg">
                 </div><div class="container">
-                    <h5 class="product-name">VICKS BABYRUB</h5>
-                    <h6>&#8377 100.8</h6>
+                    <h5 class="product-name">Vicks Babyrub</h5>
+                    <h6>₹100.8</h6>
                    
                 </div></div><div class="card Under999">
                     <div class="image-container">
                         <img src="./Images/sebamed-protective-facial-cream.jpg">
                     </div>
                     <div class="container">
-                        <h5 class="product-name">SEBAMED BABY PROTECTIVE FACIAL CREAM</h5>
-                        <h6>&#8377 723.35</h6>
+                        <h5 class="product-name">Sebamed Baby Protective Facial Cream</h5>
+                        <h6>₹723.35</h6>
                        
                     </div>
                 </div>
@@ -669,8 +669,8 @@ input:nth-of-type(5):checked ~ main#carousel {
                         <img src="./Images/sebamed-baby-lotion-400ml-1-1632774259.jpg">
                     </div>
                     <div class="container">
-                        <h5 class="product-name">SEBAMED BABY LOTION</h5>
-                        <h6>&#8377 241.4</h6>
+                        <h5 class="product-name">Sebamed Body Lotion</h5>
+                        <h6>₹241.4</h6>
                         
                     </div>
                 </div>
@@ -678,23 +678,23 @@ input:nth-of-type(5):checked ~ main#carousel {
                     <div class="image-container">
                         <img src="./Images/shampoo.jpg">
                     </div><div class="container">
-                        <h5 class="product-name">JOHNSON'S  NO MORE TEARS BABY SHAMPOO BOTTLE</h5>
-                        <h6>&#8377 153.55</h6>
+                        <h5 class="product-name">Johnson'S No More Tears Baby Shampoo Bottle</h5>
+                        <h6>₹153.55</h6>
                        
                     </div></div>
                     <div class="card Under 499">
                         <div class="image-container">
                             <img src="./Images/atogla-baby-cream-tube-of-100-g-2-1654078736.jpg">
                         </div><div class="container">
-                            <h5 class="product-name">ATOGLA BABY CREAM TUBE</h5>
-                            <h6>&#8377 245.7</h6>
+                            <h5 class="product-name">Atogla Baby Cream Tube</h5>
+                            <h6>₹245.7</h6>
                            
                    </div></div><div class="card Under 99">
                          <div class="image-container">
                                 <img src="./Images/Johnsons-Baby-Milk-Soap.jpg">
                       </div><div class="container">
-                                <h5 class="product-name">JOHNSON'S BABY SOAP</h5>
-                       <h6>&#8377 97.75</h6>
+                                <h5 class="product-name">Johnson'S Baby Soap</h5>
+                       <h6>₹97.75</h6>
                       
                       
                     </div>
@@ -710,11 +710,11 @@ input:nth-of-type(5):checked ~ main#carousel {
             
                 <div class="card under999">
                     <div class="image-container">
-                        <img src="Covid Care\Sanatizer\Screenshot 2022-11-21 110919.png">
+                        <img src="Covid Care\Sanatizer\img_20210109_181419__front__hand_sanitizer_liquid.webp">
                     </div>
                     <div class="container">
-                        <h5 class="product-name">SANATIZER</h5>
-                        <h6>&#8377 900</h6>
+                        <h5 class="product-name">Sanatizer</h5>
+                        <h6>₹ 900</h6>
                        
                     </div>
                 </div>
@@ -723,8 +723,8 @@ input:nth-of-type(5):checked ~ main#carousel {
                         <img src="Covid Care\Oximeter\bpl-smart-oxy-finger-tip-pulse-black-oximeter-black-2-1654234561.webp">
                     </div>
                     <div class="container">
-                        <h5 class="product-name">OXIMETER</h5>
-                        <h6>&#8377 1899</h6>
+                        <h5 class="product-name">Oximeter</h5>
+                        <h6>₹ 1899</h6>
                         
                     </div>
                 </div>
@@ -732,24 +732,24 @@ input:nth-of-type(5):checked ~ main#carousel {
                     <div class="image-container">
                         <img src="Covid Care\scanning Thermometer\pharmeasy-infrared-thermometer-2-1667628955.webp">
                     </div><div class="container">
-                        <h5 class="product-name">SCANNING THERMOMETER</h5>
-                        <h6>&#8377 999</h6>
+                        <h5 class="product-name">Scanning Thermometer</h5>
+                        <h6>₹ 999</h6>
                        
                     </div></div>
                     <div class="card under99">
                         <div class="image-container">
                             <img src="Covid Care\Gloves\2_12_4.webp">
                         </div><div class="container">
-                            <h5 class="product-name">GLOVES</h5>
-                            <h6>&#8377 49</h6>
+                            <h5 class="product-name">Gloves</h5>
+                            <h6>₹ 49</h6>
                            
                    </div></div>
                    <div class="card under599">
                          <div class="image-container">
                                 <img src="Covid Care\Mask\Screenshot 2022-11-21 105311.png">
                       </div><div class="container">
-                                <h5 class="product-name">MASK</h5>
-                       <h6>&#8377 600</h6>
+                                <h5 class="product-name">Mask</h5>
+                       <h6>₹ 600</h6>
 
                       
                       
@@ -847,4 +847,4 @@ input:nth-of-type(5):checked ~ main#carousel {
     </script>
     
   </body>
-  </html>
+</html>
