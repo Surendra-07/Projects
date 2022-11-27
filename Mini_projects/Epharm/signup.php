@@ -26,7 +26,7 @@
           <span>use your email for registration</span>
           <input type="text" placeholder="Name" name="name" />
           <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" type="email" name="email" placeholder="email" required />
-          <input type="password" placeholder="Password" name="password" />
+          <input type="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Password" name="password" />
           <input type="radio" name="gender" value="Male" />Male
           <input type="radio" name="gender" value="Female" />Female
           <input type="number" placeholder="age" name="age" />
