@@ -8,9 +8,12 @@
   vertical-align: top;
   /* border: 1px red solid; */
   display: flex;
+  position: fixed;
+  z-index: 1000;
   flex-direction: row;
   width: 100%;
-  height: 140px;
+  height: 120px;
+  background-color: white;
 }
 
 #logo {
@@ -351,7 +354,20 @@
 }
 
 .footer-basic .social > a:hover {
+  /* background-color: #8a3ab9; */
   opacity: 0.9;
+}
+.footer-basic .social .ins:hover {
+  background-color: #8a3ab9;
+}
+.footer-basic .social .snap:hover {
+  background-color: yellow;
+}
+.footer-basic .social .twi:hover {
+  background-color: #00acee;
+}
+.footer-basic .social .face:hover {
+  background-color: #3b5998;
 }
 
 .footer-basic .copyright {
@@ -360,6 +376,23 @@
   font-size: 13px;
   color: #aaa;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .product-div {
+    grid-template-columns: 100%;
+  }
+  .product-div-right {
+    text-align: center;
+  }
+  .product-rating {
+    justify-content: center;
+  }
+  .product-description {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");

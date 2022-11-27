@@ -421,12 +421,12 @@ textarea.input {
               <span>Username</span>
             </div>
             <div class="input-container">
-              <input type="email" name="email" class="input" placeholder="Email" required  />
+              <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="input" placeholder="Email" required  />
               
               <span>Email</span>
             </div>
             <div class="input-container">
-              <input type="tel" name="phone" class="input"  placeholder="Phone" required >
+              <input type="tel" name="phone" pattern="^\d{10}$" class="input"  placeholder="Phone" required >
           
               <span>Phone</span>
             </div>

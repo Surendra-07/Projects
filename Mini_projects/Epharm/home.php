@@ -486,18 +486,23 @@ input:nth-of-type(5):checked ~ main#carousel {
             <button class="button-value" onclick="filterProduct('all')">
               All
             </button>
-            <button class="button-value" onclick="filterProduct('Under100')">
-              Under 100
+            <button class="button-value" onclick="filterProduct('personalcare')">
+              Personal Care
             </button>
-            <button class="button-value" onclick="filterProduct('Bottomwear')">
-              Bottomwear
+            <button class="button-value" onclick="filterProduct('healthCare')">
+              Health Care
             </button>
-            <button class="button-value" onclick="filterProduct('Jacket')">
-              Jacket
+            <button class="button-value" onclick="filterProduct('covidcare')">
+              Covid Care
             </button>
-            <button class="button-value" onclick="filterProduct('Watch')">
-              Watch
+            <button class="button-value" onclick="filterProduct('babycare')">
+              Baby care
             </button>
+            <button class="button-value" onclick="filterProduct('fitnesscare')">
+              Fitness Care
+            </button>
+                
+
           </div>
           <center>
           <?php
@@ -512,7 +517,7 @@ input:nth-of-type(5):checked ~ main#carousel {
           <div id="products">
             
             
-          <div class="card under49">
+          <div class="card personalcare">
             <div class="image-container">
                 <img src="Comiflame\combiflam-strip-of-20-tablets-1-1641534272.webp">
             </div>
@@ -522,7 +527,7 @@ input:nth-of-type(5):checked ~ main#carousel {
                
                 <div></div>
             </div></div>
-            <div class="card under49">
+            <div class="card personalcare">
                 <div class="image-container">
                     <img src="crosin\crocin-pain-relief-tablet.png">
                 </div>
@@ -532,14 +537,14 @@ input:nth-of-type(5):checked ~ main#carousel {
                   
                 </div>
             </div>
-            <div class="card under99">
+            <div class="card personalcare">
                 <div class="image-container">
                     <img src="Dettol\dettol-antiseptic-liquid-bottle-of-550-ml-2-1656923531.webp">
                 </div><div class="container">
                     <h5 class="product-name">DETTOL-LIQUID</h5>
                     <h6>&#8377 99</h6>
                    
-                </div></div><div class="card under49">
+                </div></div><div class="card personalcare">
                     <div class="image-container">
                         <img src="Dolo\dolo-650mg-strip-of-15-tablets-2-1653986150.webp">
                     </div>
@@ -549,7 +554,7 @@ input:nth-of-type(5):checked ~ main#carousel {
                        
                     </div>
                 </div>
-                <div class="card under149">
+                <div class="card personalcare">
                     <div class="image-container">
                         <img src="hansaplast\hansaplast-regular.webp">
                     </div>
@@ -559,7 +564,7 @@ input:nth-of-type(5):checked ~ main#carousel {
                         
                     </div>
                 </div>
-                <div class="card under99">
+                <div class="card personalcare">
                     <div class="image-container">
                         <img src="Meftal Spas\meftal-spas-tablet-2-1641531171.webp">
                     </div><div class="container">
@@ -567,14 +572,14 @@ input:nth-of-type(5):checked ~ main#carousel {
                         <h6>&#8377 89</h6>
                        
                     </div></div>
-                    <div class="card under199">
+                    <div class="card personalcare">
                         <div class="image-container">
                             <img src="Multivitamin\pharmeasy-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-2-1666336677.webp">
                         </div><div class="container">
                             <h5 class="product-name">MULTIVITAMINS</h5>
                             <h6>&#8377 189</h6>
                            
-                   </div></div><div class="card under49">
+                   </div></div><div class="card personalcare">
                          <div class="image-container">
                                 <img src="refresh eye drop\sswzofpcesatvgabnccq.webp">
                       </div><div class="container">
@@ -586,7 +591,7 @@ input:nth-of-type(5):checked ~ main#carousel {
                     <div>
 
                 </div></div>
-                <div class="card under49">
+                <div class="card personalcare">
                   <div class="image-container">
                       <img src="Saridon\ftsmbwoi0gmmxgluxdn4.webp">
                   </div>
@@ -627,7 +632,7 @@ input:nth-of-type(5):checked ~ main#carousel {
                             <div></div>
                         </div></div> 
                          
-          <div class="card Under499">
+          <div class="card babycare">
             <div class="image-container">
                 <img src="./Images/pampers-premium-care-pants-diapers-medium-16-count-2-1666017922.jpg">
             </div>
@@ -637,7 +642,7 @@ input:nth-of-type(5):checked ~ main#carousel {
                
                 <div></div>
             </div></div>
-            <div class="card Under99">
+            <div class="card babycare">
                 <div class="image-container">
                     <img src="./Images/baby-wipes.jpg">
                 </div>
@@ -647,14 +652,14 @@ input:nth-of-type(5):checked ~ main#carousel {
                   
                 </div>
             </div>
-            <div class="card Under299">
+            <div class="card babycare">
                 <div class="image-container">
                     <img src="./Images/vicks.jpg">
                 </div><div class="container">
                     <h5 class="product-name">VICKS BABYRUB</h5>
                     <h6>&#8377 100.8</h6>
                    
-                </div></div><div class="card Under999">
+                </div></div><div class="card babycare">
                     <div class="image-container">
                         <img src="./Images/sebamed-protective-facial-cream.jpg">
                     </div>
@@ -664,7 +669,7 @@ input:nth-of-type(5):checked ~ main#carousel {
                        
                     </div>
                 </div>
-                <div class="card Under499">
+                <div class="card babycare">
                     <div class="image-container">
                         <img src="./Images/sebamed-baby-lotion-400ml-1-1632774259.jpg">
                     </div>
@@ -674,7 +679,7 @@ input:nth-of-type(5):checked ~ main#carousel {
                         
                     </div>
                 </div>
-                <div class="card Under 299">
+                <div class="card babycare">
                     <div class="image-container">
                         <img src="./Images/shampoo.jpg">
                     </div><div class="container">
@@ -682,14 +687,14 @@ input:nth-of-type(5):checked ~ main#carousel {
                         <h6>&#8377 153.55</h6>
                        
                     </div></div>
-                    <div class="card Under 499">
+                    <div class="card babycare">
                         <div class="image-container">
                             <img src="./Images/atogla-baby-cream-tube-of-100-g-2-1654078736.jpg">
                         </div><div class="container">
                             <h5 class="product-name">ATOGLA BABY CREAM TUBE</h5>
                             <h6>&#8377 245.7</h6>
                            
-                   </div></div><div class="card Under 99">
+                   </div></div><div class="card babycare">
                          <div class="image-container">
                                 <img src="./Images/Johnsons-Baby-Milk-Soap.jpg">
                       </div><div class="container">
@@ -708,7 +713,7 @@ input:nth-of-type(5):checked ~ main#carousel {
                 </div>
 
             
-                <div class="card under999">
+                <div class="card covidcare">
                     <div class="image-container">
                         <img src="Covid Care\Sanatizer\Screenshot 2022-11-21 110919.png">
                     </div>
@@ -718,7 +723,7 @@ input:nth-of-type(5):checked ~ main#carousel {
                        
                     </div>
                 </div>
-                <div class="card under1999">
+                <div class="card covidcare">
                     <div class="image-container">
                         <img src="Covid Care\Oximeter\bpl-smart-oxy-finger-tip-pulse-black-oximeter-black-2-1654234561.webp">
                     </div>
@@ -728,7 +733,7 @@ input:nth-of-type(5):checked ~ main#carousel {
                         
                     </div>
                 </div>
-                <div class="card under999">
+                <div class="card covidcare">
                     <div class="image-container">
                         <img src="Covid Care\scanning Thermometer\pharmeasy-infrared-thermometer-2-1667628955.webp">
                     </div><div class="container">
@@ -736,7 +741,7 @@ input:nth-of-type(5):checked ~ main#carousel {
                         <h6>&#8377 999</h6>
                        
                     </div></div>
-                    <div class="card under99">
+                    <div class="card covidcare">
                         <div class="image-container">
                             <img src="Covid Care\Gloves\2_12_4.webp">
                         </div><div class="container">
@@ -744,7 +749,7 @@ input:nth-of-type(5):checked ~ main#carousel {
                             <h6>&#8377 49</h6>
                            
                    </div></div>
-                   <div class="card under599">
+                   <div class="card covidcare">
                          <div class="image-container">
                                 <img src="Covid Care\Mask\Screenshot 2022-11-21 105311.png">
                       </div><div class="container">
@@ -763,6 +768,72 @@ input:nth-of-type(5):checked ~ main#carousel {
                 </div>
                 
                 
+                <div class="card fitnesscare">
+                <div class="image-container">
+                  <img
+                    src="Fitness Care/Fish oil/nutrabay-wellness-fish-oil-omega-3-1000mg-60-capsules-2-1641792196.webp"
+                  />
+                </div>
+                <div class="container">
+                  <h5 class="product-name">FISH OIL</h5>
+                  <h6>&#8377 229</h6>
+                </div>
+              </div>
+              <div class="card fitnesscare">
+                <div class="image-container">
+                  <img
+                    src="Fitness Care/Multivitamin/pharmeasy-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-2-1666336677.webp"
+                  />
+                </div>
+                <div class="container">
+                  <h5 class="product-name">MULTIVITAMIN</h5>
+                  <h6>&#8377 384</h6>
+                </div>
+              </div>
+              <div class="card fitnesscare">
+                <div class="image-container">
+                  <img
+                    src="Fitness Care/Weight los/optimum-nutrition-on-serious-mass-weight-gain-powder-3-lbs-136-kg-vanilla-2-1641794675.webp"
+                  />
+                </div>
+                <div class="container">
+                  <h5 class="product-name">NUTRITION</h5>
+                  <h6>&#8377 350</h6>
+                </div>
+              </div>
+              <div class="card fitnesscare">
+                <div class="image-container">
+                  <img
+                    src="Fitness Care/vital Multivitamin/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-capsules-2-1654077741.webp"
+                  />
+                </div>
+                <div class="container">
+                  <h5 class="product-name">VITAL MULTIVITAMIN</h5>
+                  <h6>&#8377 255</h6>
+                </div>
+              </div>
+              <div class="card fitnesscare">
+                <div class="image-container">
+                  <img
+                    src="Fitness Care/protine/grd-chocolate-whey-protein-refill-of-400-g-1-1654078665.webp"
+                  />
+                </div>
+                <div class="container">
+                  <h5 class="product-name">PROTINE</h5>
+                  <h6>&#8377 600</h6>
+                </div>
+              </div>
+              <div class="card fitnesscare">
+                <div class="image-container">
+                  <img
+                    src="Fitness Care/Zandu Chavanprash/zandu-chyavanprash-avaleha-900-gm-2-1641791682.webp"
+                  />
+                </div>
+                <div class="container">
+                  <h5 class="product-name">ZANDU CHAVANPRASH</h5>
+                  <h6>&#8377 316</h6>
+                </div>
+              </div>
 
 
                         
