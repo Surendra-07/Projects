@@ -489,7 +489,7 @@ input:nth-of-type(5):checked ~ main#carousel {
             <button class="button-value" onclick="filterProduct('personalcare')">
               Personal Care
             </button>
-            <button class="button-value" onclick="filterProduct('healthCare')">
+            <button class="button-value" onclick="filterProduct('healthcare')">
               Health Care
             </button>
             <button class="button-value" onclick="filterProduct('covidcare')">
@@ -601,36 +601,64 @@ input:nth-of-type(5):checked ~ main#carousel {
                      
                       <div></div>
                   </div></div>
-                  <div class="card under49">
+                  
+            
+            <div class="card healthcare">
                     <div class="image-container">
-                        <img src="Sevlon\savlon-antiseptic-disinfectant-liquid-1000-ml-2-1658475751.webp">
+                        <img src="HEALTHCARE IMG/Oximeter/bpl-smart-oxy-finger-tip-pulse-black-oximeter-black-2-1654234561.webp">
                     </div>
                     <div class="container">
-                        <h5 class="product-name">SEVLON</h5>
-                        <h6>&#8377 50</h6>
+                        <h5 class="product-name">OXIMETER</h5>
+                        <h6>₹ 1872</h6>
                        
-                        <div></div>
-                    </div></div>
-                    <div class="card under49">
-                      <div class="image-container">
-                          <img src="Soframycin\soframycin-tube-of-30gm-skin-cream-1-1662962968.webp">
-                      </div>
+                    </div>
+                </div>
+                
+
+                <div class="card healthcare">
+                    <div class="image-container">
+                        <img src="HEALTHCARE IMG/scanning Thermometer/pharmeasy-infrared-thermometer-2-1667628955.webp">
+                    </div><div class="container">
+                        <h5 class="product-name">SCANNING THERMOMETER</h5>
+                        <h6>₹ 999</h6>
+                       
+                    </div>
+                </div>
+
+
+                   <div class="card healthcare">
+                         <div class="image-container">
+                                <img src="HEALTHCARE IMG/Gluco bload monetering system/dr-morepen-bg-03-glucometer-test-strips-box-of-25-1-1654168049.webp">
+                         </div>
                       <div class="container">
-                          <h5 class="product-name">SOFRAMYCIN</h5>
-                          <h6>&#8377 50</h6>
-                         
-                          <div></div>
-                      </div></div>
-                      <div class="card Under99">
-                        <div class="image-container">
-                            <img src="Saridon\ftsmbwoi0gmmxgluxdn4.webp">
-                        </div>
-                        <div class="container">
-                            <h5 class="product-name">SARODON</h5>
-                            <h6>&#8377 50</h6>
-                           
-                            <div></div>
-                        </div></div> 
+                      <h5 class="product-name">GLUCO MONITOR</h5>
+                       <h6>₹ 449</h6>
+                      </div>
+                </div>
+
+
+                <div class="card healthcare">
+                  <div class="image-container">
+                         <img src="HEALTHCARE IMG/thermometer/topnotch-digital-thermometer-2-1654250140.webp">
+                  </div>
+               <div class="container">
+               <h5 class="product-name">THERMOMETER</h5>
+                <h6>₹ 90 </h6>
+               </div>
+         </div>
+
+
+
+         <div class="card healthcare">
+          <div class="image-container">
+                 <img src="HEALTHCARE IMG/Vaporizer/pharmeasy-all-in-one-vaporizer-1-1654233812.webp">
+          </div>
+       <div class="container">
+       <h5 class="product-name">VAPORIZER</h5>
+        <h6>₹ 269</h6>
+       </div>
+ </div>
+                
                          
           <div class="card babycare">
             <div class="image-container">
