@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,6 +19,51 @@
       ::before {
         box-sizing: border-box;
       }
+      
+      .glowing-button {
+        background-image: linear-gradient(45deg,#ac3dfc,#6148fd,#00ccff,#1900ff,#1e0db9,#8400ff);
+        background-size: 400%;
+        border: 7px solid rgb(5, 6, 45);
+        box-shadow: 0 0 15px rgb(47, 0, 255);
+        box-sizing: border-box;
+        color: #FFFFFF;
+        display: flex;
+        font-size: 18px;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 1.5rem;
+        position: absolute;
+       
+        transform: translate(-50%,-50%);
+        animation: animation 27s infinite;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        }
+        @keyframes animation {
+            0% {
+                background-position:0 0;
+            }
+            50% {
+                background-position: 400% 0;
+            }
+            100% {
+                background-position: 0 0;
+            }
+        }
+
+        .glowing-button span {
+            background-color: rgb(5, 6, 45);
+            padding: 16px 24px;
+            width: 100%;
+            height: 100%;
+            transition: 300ms;
+            border-radius: 1rem;
+        }
+        .glowing-button span:hover {
+            background: none;
+            transform: 700ms;
+        }
+
 
       #header {
         vertical-align: top;
@@ -230,23 +276,68 @@
   </head>
   <body style="display: block;">
     <div>
-        <div id="header">
-      <div class="row1">
-        <a href="dashboard.html"><img id="logo" src="logo.png" /></a>
-      </div>
-      <div class="row1">
-        <a class="headlink" href="home.php"><h2>Home</h2></a>
-      </div>
-      <div class="row1">
-        <a class="headlink" href="aboutus.html"><h2>About Us</h2></a>
-      </div>
-      <div class="row1">
-        <a class="headlink" href="service.html"><h2>Service</h2></a>
-      </div>
-      <div class="row1">
-        <a class="headlink" href="contactus.html"><h2>Contact us</h2></a>
-      </div>
-     
+      <div id="header">
+        <div class="row1">
+          <a href="dashboard.html"><img id="logo" src="logo.png" /></a>
+        </div>
+       
+        <div class="row1">
+          <a class="headlink" href="aboutus.html"><h2>About Us</h2></a>
+        </div>
+        <div class="row1">
+          <a class="headlink" href="service.html"><h2>Service</h2></a>
+        </div>
+        <div class="row1">
+          <a class="headlink" href="contactus.html"><h2>Contact us</h2></a>
+        </div>
+        <div class="headlink" style="padding-top:20px;padding-left:10px">
+        <?php 
+                  // Checking is User Logged In
+                  if(isset($_SESSION['authentication']))
+                  {
+                      ?>
+                          <h4>Welcome <?= $_SESSION['auth_user']['user_fullname']; ?> </h4>
+                          <h4>User Email Id: <?= $_SESSION['auth_user']['user_email']; ?></h4>
+                        
+                      <?php
+                  }
+                  ?>
+        </div>
+        <div class="row1">
+       
+                   <?php 
+                      if(!isset($_SESSION['authentication']))
+                      {
+                          ?>
+                          
+                          <center>
+                          <a href="signup.php" class="btn btn-danger mt-3"  style="text-decoration: none"><button class="glowing-button" style="margin-top:60px ;margin-left: 120px;">
+                          <span class="inner">Login</span>
+              </button></a>
+                          </center>
+                       
+                          <?php
+                      }
+                  ?>
+                        <?php 
+                  // Checking is User Logged In
+                  if(isset($_SESSION['authentication']))
+                  {
+                      ?>
+                         <center>
+                         <a href="logout.php" class="btn btn-danger mt-3"  style="text-decoration: none"><button class="glowing-button" style="margin-top:60px ;margin-left: 120px;">
+                  <span class="inner">Logout</span>
+              </button></a>
+                         </center>
+                         
+                        
+                      <?php
+                  }
+                  ?>
+                  
+  
+        </div>
+        
     </div>
       <div >
       <center>

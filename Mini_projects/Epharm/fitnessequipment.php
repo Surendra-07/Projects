@@ -1,17 +1,16 @@
-<html>
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Filter And Search</title>
     <!-- Google Font -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
-    />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css" />
     <style>
@@ -42,7 +41,7 @@
         height: 100%;
         width: 20%;
       }
-
+      
       .headlink {
         margin: 10px;
         text-align: center;
@@ -168,71 +167,117 @@
           grid-column-gap: 1em;
         }
       }
-
-      .footer-basic {
-        padding: 40px 0;
-        background-color: #ffffff;
-        color: #4b4c4d;
-      }
-
-      .footer-basic ul {
-        padding: 0;
-        list-style: none;
-        text-align: center;
+      
+      .glowing-button {
+        background-image: linear-gradient(45deg,#ac3dfc,#6148fd,#00ccff,#1900ff,#1e0db9,#8400ff);
+        background-size: 400%;
+        border: 7px solid rgb(5, 6, 45);
+        box-shadow: 0 0 15px rgb(47, 0, 255);
+        box-sizing: border-box;
+        color: #FFFFFF;
+        display: flex;
         font-size: 18px;
-        line-height: 1.6;
-        margin-bottom: 0;
-      }
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 1.5rem;
+        position: absolute;
+       
+        transform: translate(-50%,-50%);
+        animation: animation 27s infinite;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        }
+        @keyframes animation {
+            0% {
+                background-position:0 0;
+            }
+            50% {
+                background-position: 400% 0;
+            }
+            100% {
+                background-position: 0 0;
+            }
+        }
 
-      .footer-basic li {
-        padding: 0 10px;
-      }
+        .glowing-button span {
+            background-color: rgb(5, 6, 45);
+            padding: 16px 24px;
+            width: 100%;
+            height: 100%;
+            transition: 300ms;
+            border-radius: 1rem;
+        }
+        .glowing-button span:hover {
+            background: none;
+            transform: 700ms;
+        }
 
-      .footer-basic ul a {
-        color: inherit;
-        text-decoration: none;
-        opacity: 0.8;
-      }
+      
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+}
 
-      .footer-basic ul a:hover {
-        opacity: 1;
-      }
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
 
-      .footer-basic .social {
-        text-align: center;
-        padding-bottom: 25px;
-      }
+.footer-basic li {
+  padding: 0 10px;
+}
 
-      .footer-basic .social > a {
-        font-size: 24px;
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        display: inline-block;
-        text-align: center;
-        border-radius: 50%;
-        border: 1px solid #ccc;
-        margin: 0 8px;
-        color: inherit;
-        opacity: 0.75;
-      }
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
 
-      .footer-basic .social > a:hover {
-        opacity: 0.9;
-      }
+.footer-basic ul a:hover {
+  opacity: 1;
+}
 
-      .footer-basic .copyright {
-        margin-top: 15px;
-        text-align: center;
-        font-size: 13px;
-        color: #aaa;
-        margin-bottom: 0;
-      }
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
     </style>
   </head>
-  <body style="display: block">
+  <body style="display: block;">
     <div>
-    <div class="row1">
+    <div id="header">
+        <div class="row1">
           <a href="dashboard.html"><img id="logo" src="logo.png" /></a>
         </div>
        
@@ -293,19 +338,19 @@
   
         </div>
         
-      </div>
-      <div>
-        <center>
-          <div class="wrapper">
-            <div id="search-container">
-              <input
-                type="search"
-                id="search-input"
-                placeholder="Search product name here.."
-              />
-              <button id="search">Search</button>
-            </div>
-            <div id="buttons">
+    </div>
+      <div >
+      <center>
+        <div class="wrapper">
+          <div id="search-container">
+            <input
+              type="search"
+              id="search-input"
+              placeholder="Search product name here.."
+            />
+            <button id="search">Search</button>
+          </div>
+          <div id="buttons">
               <button
                 class="button-value active"
                 onclick="filterProduct('all')"
@@ -476,5 +521,6 @@
         filterProduct("all");
       };
     </script>
-  </body>
+    
+  </body>
 </html>

@@ -1,8 +1,9 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Product Filter And Search</title>
     <!-- Google Font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
@@ -53,6 +54,51 @@
         margin-top: 23px;
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
       }
+
+      
+      .glowing-button {
+        background-image: linear-gradient(45deg,#ac3dfc,#6148fd,#00ccff,#1900ff,#1e0db9,#8400ff);
+        background-size: 400%;
+        border: 7px solid rgb(5, 6, 45);
+        box-shadow: 0 0 15px rgb(47, 0, 255);
+        box-sizing: border-box;
+        color: #FFFFFF;
+        display: flex;
+        font-size: 18px;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 1.5rem;
+        position: absolute;
+       
+        transform: translate(-50%,-50%);
+        animation: animation 27s infinite;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        }
+        @keyframes animation {
+            0% {
+                background-position:0 0;
+            }
+            50% {
+                background-position: 400% 0;
+            }
+            100% {
+                background-position: 0 0;
+            }
+        }
+
+        .glowing-button span {
+            background-color: rgb(5, 6, 45);
+            padding: 16px 24px;
+            width: 100%;
+            height: 100%;
+            transition: 300ms;
+            border-radius: 1rem;
+        }
+        .glowing-button span:hover {
+            background: none;
+            transform: 700ms;
+        }
 
       .btn1 {
         font-size: medium;
@@ -230,23 +276,68 @@
   </head>
   <body style="display: block;">
     <div>
-        <div id="header">
-      <div class="row1">
-        <a href="dashboard.html"><img id="logo" src="logo.png" /></a>
-      </div>
-      <div class="row1">
-        <a class="headlink" href="home.html"><h2>Home</h2></a>
-      </div>
-      <div class="row1">
-        <a class="headlink" href="aboutus.html"><h2>About Us</h2></a>
-      </div>
-      <div class="row1">
-        <a class="headlink" href="service.html"><h2>Service</h2></a>
-      </div>
-      <div class="row1">
-        <a class="headlink" href="contactus.html"><h2>Contact us</h2></a>
-      </div>
-     
+    <div id="header">
+        <div class="row1">
+          <a href="dashboard.html"><img id="logo" src="logo.png" /></a>
+        </div>
+       
+        <div class="row1">
+          <a class="headlink" href="aboutus.html"><h2>About Us</h2></a>
+        </div>
+        <div class="row1">
+          <a class="headlink" href="service.html"><h2>Service</h2></a>
+        </div>
+        <div class="row1">
+          <a class="headlink" href="contactus.html"><h2>Contact us</h2></a>
+        </div>
+        <div class="headlink" style="padding-top:20px;padding-left:10px">
+        <?php 
+                  // Checking is User Logged In
+                  if(isset($_SESSION['authentication']))
+                  {
+                      ?>
+                          <h4>Welcome <?= $_SESSION['auth_user']['user_fullname']; ?> </h4>
+                          <h4>User Email Id: <?= $_SESSION['auth_user']['user_email']; ?></h4>
+                        
+                      <?php
+                  }
+                  ?>
+        </div>
+        <div class="row1">
+       
+                   <?php 
+                      if(!isset($_SESSION['authentication']))
+                      {
+                          ?>
+                          
+                          <center>
+                          <a href="signup.php" class="btn btn-danger mt-3"  style="text-decoration: none"><button class="glowing-button" style="margin-top:60px ;margin-left: 120px;">
+                          <span class="inner">Login</span>
+              </button></a>
+                          </center>
+                       
+                          <?php
+                      }
+                  ?>
+                        <?php 
+                  // Checking is User Logged In
+                  if(isset($_SESSION['authentication']))
+                  {
+                      ?>
+                         <center>
+                         <a href="logout.php" class="btn btn-danger mt-3"  style="text-decoration: none"><button class="glowing-button" style="margin-top:60px ;margin-left: 120px;">
+                  <span class="inner">Logout</span>
+              </button></a>
+                         </center>
+                         
+                        
+                      <?php
+                  }
+                  ?>
+                  
+  
+        </div>
+        
     </div>
       <div >
       <center>
@@ -263,112 +354,81 @@
             <button class="button-value" onclick="filterProduct('all')">
               All
             </button>
-            <button class="button-value" onclick="filterProduct('under40')">
-            under 40
+            <button class="button-value" onclick="filterProduct('Under49')">
+              Under  49
             </button>
-            <button class="button-value" onclick="filterProduct('under50')">
-             under50
+            <button class="button-value" onclick="filterProduct('Under99')">
+              Under  99
             </button>
-            <button class="button-value" onclick="filterProduct('under150')">
-            under150
+            <button class="button-value" onclick="filterProduct('Under600')">
+              Under  600
             </button>
-            <button class="button-value" onclick="filterProduct('under200')">
-            under 200
+            <button class="button-value" onclick="filterProduct('Under900')">
+              Under  900
+            </button>
+            <button class="button-value" onclick="filterProduct('Under1900')">
+              Under  1900
             </button>
           </div>
           <div id="products">
             
             
-          <div class="card under40">
-            <div class="image-container">
-                <img src="Comiflame\combiflam-strip-of-20-tablets-1-1641534272.webp">
-            </div>
-            <div class="container">
-                <h5 class="product-name">COMIFLAME</h5>
-                <h6>&#8377 39</h6>
-               
-                <div></div>
-            </div></div>
-            <div class="card under50">
-                <div class="image-container">
-                    <img src="crosin\onav4rssxbdwvk1pedey.webp">
-                </div>
-                <div class="container">
-                    <h5 class="product-name">CROSIN</h5>
-                    <h6>&#8377 49</h6>
-                  
-                </div>
-            </div>
-            <div class="card under200">
-                <div class="image-container">
-                    <img src="Dettol\dettol-antiseptic-liquid-bottle-of-550-ml-2-1656923531.webp">
-                </div><div class="container">
-                    <h5 class="product-name">DETTOL</h5>
-                    <h6>&#8377 200</h6>
-                   
-                </div></div><div class="card under40">
+            <div class="card Under900">
                     <div class="image-container">
-                        <img src="Dolo\dolo-650mg-strip-of-15-tablets-2-1653986150.webp">
+                        <img src="Covid Care/Sanatizer/Screenshot 2022-11-21 110919.png">
                     </div>
                     <div class="container">
-                        <h5 class="product-name">DOLO</h5>
-                        <h6>&#8377 29</h6>
+                        <h5 class="product-name">SANATIZER</h5>
+                        <h6>&#8377 900</h6>
                        
                     </div>
                 </div>
-                <div class="card under200">
+                <div class="card Under1900">
                     <div class="image-container">
-                        <img src="hansaplast\mipmonn7qzdgov83gvml.webp">
+                        <img src="./Oximeter/bpl-smart-oxy-finger-tip-pulse-black-oximeter-black-2-1654234561.webp">
                     </div>
                     <div class="container">
-                        <h5 class="product-name">HANSAPLAST</h5>
-                        <h6>&#8377 190</h6>
+                        <h5 class="product-name">OXIMETER</h5>
+                        <h6>&#8377 1899</h6>
                         
                     </div>
                 </div>
-                <div class="card under50">
+                <div class="card Under99">
                     <div class="image-container">
-                        <img src="Meftal Spas\meftal-spas-tablet-2-1641531171.webp">
+                        <img src="./scanning Thermometer/pharmeasy-infrared-thermometer-2-1667628955.webp">
                     </div><div class="container">
-                        <h5 class="product-name">MEFTAL SPAS</h5>
-                        <h6>&#8377 42.50</h6>
+                        <h5 class="product-name">SCANNING THERMOMETER</h5>
+                        <h6>&#8377 99</h6>
                        
                     </div></div>
-                    <div class="card under150">
+                    <div class="card Under49">
                         <div class="image-container">
-                            <img src="refresh eye drop\sswzofpcesatvgabnccq.webp">
+                            <img src="Covid Care/Gloves/2_12_4.webp">
                         </div><div class="container">
-                            <h5 class="product-name">EYE DROP</h5>
-                            <h6>&#8377 143</h6>
+                            <h5 class="product-name">GLOVES</h5>
+                            <h6>&#8377 49</h6>
                            
                    </div></div>
-                <div class="card under40">
-                    <div class="image-container">
-                    <img src="Saridon\ftsmbwoi0gmmxgluxdn4.webp">
+                   <div class="card Under600">
+                         <div class="image-container">
+                                <img src="Covid Care/Mask/Screenshot 2022-11-21 105311.png">
+                      </div><div class="container">
+                                <h5 class="product-name">MASK</h5>
+                       <h6>&#8377 600</h6>
+
+                      
+                      
                     </div>
-                    <div class="container">
-                        <h5 class="product-name">SARIDON</h5>
-                       <h6>&#8377 40</h6>
-                    </div>
+                    <div>
+                        
+                        
+
                 </div>
-                <div class="card under200">
-                    <div class="image-container">
-                    <img src="Sevlon\savlon-antiseptic-disinfectant-liquid-1000-ml-2-1658475751.webp">
-                    </div>
-                    <div class="container">
-                        <h5 class="product-name">SEVLON</h5>
-                       <h6>&#8377 164</h6>
-                    </div>
+                        
                 </div>
-                <div class="card under150">
-                    <div class="image-container">
-                    <img src="Soframycin\soframycin-tube-of-30gm-skin-cream-1-1662962968.webp">
-                    </div>
-                    <div class="container">
-                        <h5 class="product-name">SOFRAMYCIN</h5>
-                       <h6>&#8377 140</h6>
-                    </div>
-                </div>
+                
+                
+
 
           </div>
         </div>
