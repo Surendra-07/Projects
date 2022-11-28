@@ -491,47 +491,55 @@ input:nth-of-type(5):checked ~ main#carousel {
                 
 
                 <div class="card under999">
-                    <div class="image-container">
+                   <a href="scanning.php">
+                   <div class="image-container">
                         <img src="HEALTHCARE IMG/scanning Thermometer/pharmeasy-infrared-thermometer-2-1667628955.webp">
                     </div><div class="container">
                         <h5 class="product-name">SCANNING THERMOMETER</h5>
                         <h6>₹ 999</h6>
                        
                     </div>
+                   </a>
                 </div>
 
 
                    <div class="card under599">
-                         <div class="image-container">
-                                <img src="HEALTHCARE IMG/Gluco bload monetering system/dr-morepen-bg-03-glucometer-test-strips-box-of-25-1-1654168049.webp">
-                         </div>
-                      <div class="container">
-                      <h5 class="product-name">GLUCO MONITOR</h5>
-                       <h6>₹ 449</h6>
-                      </div>
+                        <a href="d.php">
+                          <div class="image-container">
+                            <img src="HEALTHCARE IMG/Gluco bload monetering system/dr-morepen-bg-03-glucometer-test-strips-box-of-25-1-1654168049.webp">
+                     </div>
+                  <div class="container">
+                  <h5 class="product-name">GLUCO MONITOR</h5>
+                   <h6>₹ 449</h6>
+                  </div>
+                        </a>
                 </div>
 
 
                 <div class="card under99">
-                  <div class="image-container">
-                         <img src="HEALTHCARE IMG/thermometer/topnotch-digital-thermometer-2-1654250140.webp">
-                  </div>
-               <div class="container">
-               <h5 class="product-name">THERMOMETER</h5>
-                <h6>₹ 90 </h6>
+                  <a href="Thermometer.php">
+                    <div class="image-container">
+                      <img src="HEALTHCARE IMG/thermometer/topnotch-digital-thermometer-2-1654250140.webp">
                </div>
+            <div class="container">
+            <h5 class="product-name">THERMOMETER</h5>
+             <h6>₹ 90 </h6>
+            </div>
+                  </a>
          </div>
 
 
 
          <div class="card under599">
-          <div class="image-container">
-                 <img src="HEALTHCARE IMG/Vaporizer/pharmeasy-all-in-one-vaporizer-1-1654233812.webp">
-          </div>
-       <div class="container">
-       <h5 class="product-name">VAPORIZER</h5>
-        <h6>₹ 269</h6>
-       </div>
+<a href="vapourizer.php">
+  <div class="image-container">
+    <img src="HEALTHCARE IMG/Vaporizer/pharmeasy-all-in-one-vaporizer-1-1654233812.webp">
+</div>
+<div class="container">
+<h5 class="product-name">VAPORIZER</h5>
+<h6>₹ 269</h6>
+</div>
+</a>
  </div>
                   
                   
