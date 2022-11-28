@@ -20,7 +20,9 @@
       ::before {
         box-sizing: border-box;
       }
-
+      a{
+        text-decoration:none;
+      }
       #header {
         vertical-align: top;
         /* border: 1px red solid; */
@@ -517,92 +519,310 @@ input:nth-of-type(5):checked ~ main#carousel {
           <div id="products">
             
             
+                  
+           
+                      
+ <div class="card babycare">
+            <a href="Pampers.php">
+              <div class="image-container">
+                  <img src="./Images/pampers-premium-care-pants-diapers-medium-16-count-2-1666017922.jpg">
+              </div>
+              <div class="container">
+                  <h5 class="product-name">PAMPERS  PREMIUM CARE PANTS DIAPERS</h5>
+                  <h6>&#8377 288</h6>
+                 
+                  <div></div>
+              </div>
+              </a></div>
+            
+             
+              <div class="card babycare">
+              <a href="BabyWipes.php">
+                <div class="image-container">
+                    <img src="./Images/baby-wipes.jpg">
+                </div>
+                <div class="container">
+                    <h5 class="product-name">JOHNSON'S BABY WIPES PACKET</h5>
+                    <h6>&#8377 69.52</h6>
+                  
+                </div>
+            
+             </a></div>
+             <div class="card babycare">
+             <a href="Vicks.php">
+             
+                <div class="image-container">
+                    <img src="./Images/vicks.jpg">
+                </div><div class="container">
+                    <h5 class="product-name">VICKS BABYRUB</h5>
+                    <h6>&#8377 100.8</h6>
+                   
+                </div>
+             </a> 
+             </div>
+             
+              
+             <div class="card babycare">
+             <a href="Sebamed.php">
+              <div class="image-container">
+                  <img src="./Images/sebamed-protective-facial-cream.jpg">
+              </div>
+              <div class="container">
+                  <h5 class="product-name">SEBAMED BABY PROTECTIVE FACIAL CREAM</h5>
+                  <h6>&#8377 723.35</h6>
+                 
+              </div>
+           
+             </a>
+             </div>
+             <div class="card babycare">
+                  <a href="BabyLotion.php">
+                   
+                      <div class="image-container">
+                          <img src="./Images/sebamed-baby-lotion-400ml-1-1632774259.jpg">
+                      </div>
+                      <div class="container">
+                          <h5 class="product-name">SEBAMED BABY LOTION</h5>
+                          <h6>&#8377 241.4</h6>
+                          
+                      </div>
+                  
+                  </a></div>
+                  <div class="card babycare">
+                 <a href="Shampoo.php">
+                  
+                    <div class="image-container">
+                        <img src="./Images/shampoo.jpg">
+                    </div><div class="container">
+                        <h5 class="product-name">JOHNSON'S  NO MORE TEARS BABY SHAMPOO BOTTLE</h5>
+                        <h6>&#8377 153.55</h6>
+                       
+                    </div>
+
+                 </a></div>
+                 <div class="card babycare">
+                 <a href="Atolga.php">
+                 
+                    <div class="image-container">
+                        <img src="./Images/atogla-baby-cream-tube-of-100-g-2-1654078736.jpg">
+                    </div><div class="container">
+                        <h5 class="product-name">ATOGLA BABY CREAM TUBE</h5>
+                        <h6>&#8377 245.7</h6>
+                       
+               </div>
+               
+                 </a>
+                 </div>    
+                
+                  <div class="card babycare">
+                            <a href="BabySoap.php">
+                            <div class="image-container">
+                                   <img src="./Images/Johnsons-Baby-Milk-Soap.jpg">
+                         </div><div class="container">
+                                   <h5 class="product-name">JOHNSON'S BABY SOAP</h5>
+                          <h6>&#8377 97.75</h6>
+                         
+                         
+                       </div>
+                            </a>
+                       <div>
+
+                </div>
+                
+                        
+                </div>
+
+            
+                <div class="card covidcare">
+                   <a href="Sanatizer.php">
+                    <div class="image-container">
+                      <img src="Covid Care/Sanatizer/Screenshot 2022-11-21 110919.png">
+                  </div>
+                  <div class="container">
+                      <h5 class="product-name">SANATIZER</h5>
+                      <h6>&#8377 900</h6>
+                     
+                  </div>
+                   </a>
+                </div>
+                <div class="card covidcare">
+                    <a href="Oximeter.php">
+                      <div class="image-container">
+                        <img src="Covid Care/Oximeter/bpl-smart-oxy-finger-tip-pulse-black-oximeter-black-2-1654234561.webp">
+                    </div>
+                    <div class="container">
+                        <h5 class="product-name">OXIMETER</h5>
+                        <h6>&#8377 1899</h6>
+                        
+                    </div>
+                    </a>
+                </div>
+                <div class="card covidcare">
+                  <a href="Thermometer.php">
+                    <div class="image-container">
+                      <img src="Covid Care/scanning Thermometer/pharmeasy-infrared-thermometer-2-1667628955.webp">
+                  </div><div class="container">
+                      <h5 class="product-name">SCANNING THERMOMETER</h5>
+                      <h6>&#8377 99</h6>
+                     
+                  </div>
+                  </a>    
+                </div>
+                    <div class="card covidcare">
+                        <a href="Gloves.php">
+                          <div class="image-container">
+                            <img src="Covid Care/Gloves/2_12_4.webp">
+                        </div><div class="container">
+                            <h5 class="product-name">GLOVES</h5>
+                            <h6>&#8377 49</h6>
+                           
+                   </div>
+                        </a></div>
+                   <div class="card covidcare">
+                        <a href="Mask.php"> <div class="image-container">
+                          <img src="Covid Care/Mask/Screenshot 2022-11-21 105311.png">
+                </div><div class="container">
+                          <h5 class="product-name">MASK</h5>
+                 <h6>&#8377 600</h6>
+
+                
+                
+              </div></a>
+                    <div>
+                        
+                        
+                        
+                        
+
+                </div>
+                        
+                </div>
+                
           <div class="card personalcare">
+          <a href="combiflame.php">
             <div class="image-container">
                 <img src="Comiflame\combiflam-strip-of-20-tablets-1-1641534272.webp">
             </div>
             <div class="container">
-                <h5 class="product-name">COMBIFLAME</h5>
-                <h6>&#8377 30</h6>
+                <h5 class="product-name">COMIFLAME</h5>
+                <h6>&#8377 39</h6>
                
                 <div></div>
-            </div></div>
-            <div class="card personalcare">
+            </div> </a></div>
+           
+            
+         
+              <div class="card personalcare">
+              <a href="crosin.php">
                 <div class="image-container">
-                    <img src="crosin\crocin-pain-relief-tablet.png">
+                    <img src="crosin\onav4rssxbdwvk1pedey.webp">
                 </div>
                 <div class="container">
-                    <h5 class="product-name">CROCIN</h5>
+                    <h5 class="product-name">CROSIN</h5>
                     <h6>&#8377 49</h6>
                   
                 </div>
+                </a>
             </div>
-            <div class="card personalcare">
+          
+          
+              <div class="card personalcare">
+              <a href="dettol.php">
                 <div class="image-container">
                     <img src="Dettol\dettol-antiseptic-liquid-bottle-of-550-ml-2-1656923531.webp">
                 </div><div class="container">
-                    <h5 class="product-name">DETTOL-LIQUID</h5>
-                    <h6>&#8377 99</h6>
+                    <h5 class="product-name">DETTOL</h5>
+                    <h6>&#8377 200</h6>
                    
-                </div></div><div class="card personalcare">
-                    <div class="image-container">
-                        <img src="Dolo\dolo-650mg-strip-of-15-tablets-2-1653986150.webp">
-                    </div>
-                    <div class="container">
-                        <h5 class="product-name">DOLO</h5>
-                        <h6>&#8377 29</h6>
-                       
-                    </div>
                 </div>
+                </a></div>
+            
+            
+            
+
+              <div class="card personalcare">
+              <a href="Dolo.php">
+                <div class="image-container">
+                    <img src="Dolo\dolo-650mg-strip-of-15-tablets-2-1653986150.webp">
+                </div>
+                <div class="container">
+                    <h5 class="product-name">DOLO</h5>
+                    <h6>&#8377 29</h6>
+                   
+                </div>
+                </a>
+            </div>
+
+            
+              
                 <div class="card personalcare">
+                <a href="hansplast.php">
+                  <div class="image-container">
+                      <img src="hansaplast\mipmonn7qzdgov83gvml.webp">
+                  </div>
+                  <div class="container">
+                      <h5 class="product-name">HANSAPLAST</h5>
+                      <h6>&#8377 190</h6>
+                      
+                  </div>
+                  </a>
+              </div>
+              
+                
+                  <div class="card personalcare">
+                  <a href="Meftal.php">
+
                     <div class="image-container">
-                        <img src="hansaplast\hansaplast-regular.webp">
+                        <img src="hansaplast\mipmonn7qzdgov83gvml.webp">
                     </div>
                     <div class="container">
                         <h5 class="product-name">HANSAPLAST</h5>
-                        <h6>&#8377 129</h6>
+                        <h6>&#8377 190</h6>
                         
                     </div>
+                    </a>
                 </div>
-                <div class="card personalcare">
-                    <div class="image-container">
-                        <img src="Meftal Spas\meftal-spas-tablet-2-1641531171.webp">
-                    </div><div class="container">
-                        <h5 class="product-name">MEFTAL-SPAS</h5>
-                        <h6>&#8377 89</h6>
-                       
-                    </div></div>
-                    <div class="card personalcare">
-                        <div class="image-container">
-                            <img src="Multivitamin\pharmeasy-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-2-1666336677.webp">
-                        </div><div class="container">
-                            <h5 class="product-name">MULTIVITAMINS</h5>
-                            <h6>&#8377 189</h6>
-                           
-                   </div></div><div class="card personalcare">
-                         <div class="image-container">
-                                <img src="refresh eye drop\sswzofpcesatvgabnccq.webp">
-                      </div><div class="container">
-                                <h5 class="product-name">REFRESH EYE DROPS</h5>
-                       <h6>&#8377 49</h6>
-                      
-                      
-                    </div>
-                    <div>
 
-                </div></div>
+                
+                 
+                    <div class="card personalcare">
+                    <a href="eyedrop.php">
+                      <div class="image-container">
+                          <img src="refresh eye drop\sswzofpcesatvgabnccq.webp">
+                      </div><div class="container">
+                          <h5 class="product-name">EYE DROP</h5>
+                          <h6>&#8377 143</h6>
+                         
+                 </div>    </a></div>
+
+               
+    
                 <div class="card personalcare">
+                <a href="Saridon.php">
                   <div class="image-container">
-                      <img src="Saridon\ftsmbwoi0gmmxgluxdn4.webp">
+                  <img src="Saridon\ftsmbwoi0gmmxgluxdn4.webp">
                   </div>
                   <div class="container">
                       <h5 class="product-name">SARIDON</h5>
-                      <h6>&#8377 50</h6>
-                     
-                      <div></div>
-                  </div></div>
-                  
+                     <h6>&#8377 40</h6>
+                  </div>
+                  </a>
+              </div>
+             
+             
+                <div class="card personalcare">
+                <a href="Sevlon.php">
+                  <div class="image-container">
+                  <img src="Sevlon\savlon-antiseptic-disinfectant-liquid-1000-ml-2-1658475751.webp">
+                  </div>
+                  <div class="container">
+                      <h5 class="product-name">SEVLON</h5>
+                     <h6>&#8377 164</h6>
+                  </div>
+                  </a>
+              </div>
             
+                
             <div class="card healthcare">
                     <div class="image-container">
                         <img src="HEALTHCARE IMG/Oximeter/bpl-smart-oxy-finger-tip-pulse-black-oximeter-black-2-1654234561.webp">
@@ -659,145 +879,11 @@ input:nth-of-type(5):checked ~ main#carousel {
        </div>
  </div>
                 
-                         
-          <div class="card babycare">
-            <div class="image-container">
-                <img src="./Images/pampers-premium-care-pants-diapers-medium-16-count-2-1666017922.jpg">
-            </div>
-            <div class="container">
-                <h5 class="product-name">PAMPERS  PREMIUM CARE PANTS DIAPERS</h5>
-                <h6>&#8377 288</h6>
                
-                <div></div>
-            </div></div>
-            <div class="card babycare">
-                <div class="image-container">
-                    <img src="./Images/baby-wipes.jpg">
-                </div>
-                <div class="container">
-                    <h5 class="product-name">JOHNSON'S BABY WIPES PACKET</h5>
-                    <h6>&#8377 69.52</h6>
-                  
-                </div>
-            </div>
-            <div class="card babycare">
-                <div class="image-container">
-                    <img src="./Images/vicks.jpg">
-                </div><div class="container">
-                    <h5 class="product-name">VICKS BABYRUB</h5>
-                    <h6>&#8377 100.8</h6>
-                   
-                </div></div><div class="card babycare">
-                    <div class="image-container">
-                        <img src="./Images/sebamed-protective-facial-cream.jpg">
-                    </div>
-                    <div class="container">
-                        <h5 class="product-name">SEBAMED BABY PROTECTIVE FACIAL CREAM</h5>
-                        <h6>&#8377 723.35</h6>
-                       
-                    </div>
-                </div>
-                <div class="card babycare">
-                    <div class="image-container">
-                        <img src="./Images/sebamed-baby-lotion-400ml-1-1632774259.jpg">
-                    </div>
-                    <div class="container">
-                        <h5 class="product-name">SEBAMED BABY LOTION</h5>
-                        <h6>&#8377 241.4</h6>
-                        
-                    </div>
-                </div>
-                <div class="card babycare">
-                    <div class="image-container">
-                        <img src="./Images/shampoo.jpg">
-                    </div><div class="container">
-                        <h5 class="product-name">JOHNSON'S  NO MORE TEARS BABY SHAMPOO BOTTLE</h5>
-                        <h6>&#8377 153.55</h6>
-                       
-                    </div></div>
-                    <div class="card babycare">
-                        <div class="image-container">
-                            <img src="./Images/atogla-baby-cream-tube-of-100-g-2-1654078736.jpg">
-                        </div><div class="container">
-                            <h5 class="product-name">ATOGLA BABY CREAM TUBE</h5>
-                            <h6>&#8377 245.7</h6>
-                           
-                   </div></div><div class="card babycare">
-                         <div class="image-container">
-                                <img src="./Images/Johnsons-Baby-Milk-Soap.jpg">
-                      </div><div class="container">
-                                <h5 class="product-name">JOHNSON'S BABY SOAP</h5>
-                       <h6>&#8377 97.75</h6>
-                      
-                      
-                    </div>
-                    <div>
-
-                    
-
-                </div>
+              
                 
-                        
-                </div>
-
-            
-                <div class="card covidcare">
-                    <div class="image-container">
-                        <img src="Covid Care\Sanatizer\Screenshot 2022-11-21 110919.png">
-                    </div>
-                    <div class="container">
-                        <h5 class="product-name">SANATIZER</h5>
-                        <h6>&#8377 900</h6>
-                       
-                    </div>
-                </div>
-                <div class="card covidcare">
-                    <div class="image-container">
-                        <img src="Covid Care\Oximeter\bpl-smart-oxy-finger-tip-pulse-black-oximeter-black-2-1654234561.webp">
-                    </div>
-                    <div class="container">
-                        <h5 class="product-name">OXIMETER</h5>
-                        <h6>&#8377 1899</h6>
-                        
-                    </div>
-                </div>
-                <div class="card covidcare">
-                    <div class="image-container">
-                        <img src="Covid Care\scanning Thermometer\pharmeasy-infrared-thermometer-2-1667628955.webp">
-                    </div><div class="container">
-                        <h5 class="product-name">SCANNING THERMOMETER</h5>
-                        <h6>&#8377 999</h6>
-                       
-                    </div></div>
-                    <div class="card covidcare">
-                        <div class="image-container">
-                            <img src="Covid Care\Gloves\2_12_4.webp">
-                        </div><div class="container">
-                            <h5 class="product-name">GLOVES</h5>
-                            <h6>&#8377 49</h6>
-                           
-                   </div></div>
-                   <div class="card covidcare">
-                         <div class="image-container">
-                                <img src="Covid Care\Mask\Screenshot 2022-11-21 105311.png">
-                      </div><div class="container">
-                                <h5 class="product-name">MASK</h5>
-                       <h6>&#8377 600</h6>
-
-                      
-                      
-                    </div>
-                    <div>
-                        
-                        
-
-                </div>
-                        
-                </div>
-                
-                
-                <div class="card fitnesscare">
-                <div class="image-container">
+              <div class="card fitnesscare">
+                <a href="FishOil.php"><div class="image-container">
                   <img
                     src="Fitness Care/Fish oil/nutrabay-wellness-fish-oil-omega-3-1000mg-60-capsules-2-1641792196.webp"
                   />
@@ -805,9 +891,10 @@ input:nth-of-type(5):checked ~ main#carousel {
                 <div class="container">
                   <h5 class="product-name">FISH OIL</h5>
                   <h6>&#8377 229</h6>
-                </div>
+                </div></a>
               </div>
               <div class="card fitnesscare">
+               <a href="Multivitamins.php">
                 <div class="image-container">
                   <img
                     src="Fitness Care/Multivitamin/pharmeasy-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-2-1666336677.webp"
@@ -817,8 +904,10 @@ input:nth-of-type(5):checked ~ main#carousel {
                   <h5 class="product-name">MULTIVITAMIN</h5>
                   <h6>&#8377 384</h6>
                 </div>
+               </a>
               </div>
               <div class="card fitnesscare">
+               <a href="Protein.php">
                 <div class="image-container">
                   <img
                     src="Fitness Care/Weight los/optimum-nutrition-on-serious-mass-weight-gain-powder-3-lbs-136-kg-vanilla-2-1641794675.webp"
@@ -828,19 +917,23 @@ input:nth-of-type(5):checked ~ main#carousel {
                   <h5 class="product-name">NUTRITION</h5>
                   <h6>&#8377 350</h6>
                 </div>
+               </a>
               </div>
               <div class="card fitnesscare">
-                <div class="image-container">
-                  <img
-                    src="Fitness Care/vital Multivitamin/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-capsules-2-1654077741.webp"
-                  />
-                </div>
-                <div class="container">
-                  <h5 class="product-name">VITAL MULTIVITAMIN</h5>
-                  <h6>&#8377 255</h6>
-                </div>
+                <a href="Vital_Multivitamins.php">
+                  <div class="image-container">
+                    <img
+                      src="Fitness Care/vital Multivitamin/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-capsules-2-1654077741.webp"
+                    />
+                  </div>
+                  <div class="container">
+                    <h5 class="product-name">VITAL MULTIVITAMIN</h5>
+                    <h6>&#8377 255</h6>
+                  </div>
+                </a>
               </div>
               <div class="card fitnesscare">
+               <a href="WheyProtiein.php">
                 <div class="image-container">
                   <img
                     src="Fitness Care/protine/grd-chocolate-whey-protein-refill-of-400-g-1-1654078665.webp"
@@ -850,19 +943,21 @@ input:nth-of-type(5):checked ~ main#carousel {
                   <h5 class="product-name">PROTINE</h5>
                   <h6>&#8377 600</h6>
                 </div>
+               </a>
               </div>
               <div class="card fitnesscare">
-                <div class="image-container">
-                  <img
-                    src="Fitness Care/Zandu Chavanprash/zandu-chyavanprash-avaleha-900-gm-2-1641791682.webp"
-                  />
-                </div>
-                <div class="container">
-                  <h5 class="product-name">ZANDU CHAVANPRASH</h5>
-                  <h6>&#8377 316</h6>
-                </div>
+                <a href="Zandu.php">
+                  <div class="image-container">
+                    <img
+                      src="Fitness Care/Zandu Chavanprash/zandu-chyavanprash-avaleha-900-gm-2-1641791682.webp"
+                    />
+                  </div>
+                  <div class="container">
+                    <h5 class="product-name">ZANDU CHAVANPRASH</h5>
+                    <h6>&#8377 316</h6>
+                  </div>
+                </a>
               </div>
-
 
                         
                 </div>

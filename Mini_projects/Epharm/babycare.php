@@ -19,6 +19,9 @@
       ::before {
         box-sizing: border-box;
       }
+      a{
+        text-decoration: none;
+      }
       
       .glowing-button {
         background-image: linear-gradient(45deg,#ac3dfc,#6148fd,#00ccff,#1900ff,#1e0db9,#8400ff);
@@ -369,8 +372,10 @@
           </div>
           <div id="products">
             
-                     
+            
+                       
             <div class="card Under499">
+            <a href="Pampers.php">
               <div class="image-container">
                   <img src="./Images/pampers-premium-care-pants-diapers-medium-16-count-2-1666017922.jpg">
               </div>
@@ -379,35 +384,52 @@
                   <h6>&#8377 288</h6>
                  
                   <div></div>
-              </div></div>
-              <div class="card Under99">
-                  <div class="image-container">
-                      <img src="./Images/baby-wipes.jpg">
-                  </div>
-                  <div class="container">
-                      <h5 class="product-name">JOHNSON'S BABY WIPES PACKET</h5>
-                      <h6>&#8377 69.52</h6>
-                    
-                  </div>
               </div>
-              <div class="card Under299">
-                  <div class="image-container">
-                      <img src="./Images/vicks.jpg">
-                  </div><div class="container">
-                      <h5 class="product-name">VICKS BABYRUB</h5>
-                      <h6>&#8377 100.8</h6>
-                     
-                  </div></div><div class="card Under999">
-                      <div class="image-container">
-                          <img src="./Images/sebamed-protective-facial-cream.jpg">
-                      </div>
-                      <div class="container">
-                          <h5 class="product-name">SEBAMED BABY PROTECTIVE FACIAL CREAM</h5>
-                          <h6>&#8377 723.35</h6>
-                         
-                      </div>
-                  </div>
-                  <div class="card Under499">
+              </a></div>
+            
+             
+              <div class="card Under99">
+              <a href="BabyWipes.php">
+                <div class="image-container">
+                    <img src="./Images/baby-wipes.jpg">
+                </div>
+                <div class="container">
+                    <h5 class="product-name">JOHNSON'S BABY WIPES PACKET</h5>
+                    <h6>&#8377 69.52</h6>
+                  
+                </div>
+            
+             </a></div>
+             <div class="card Under299">
+             <a href="Vicks.php">
+             
+                <div class="image-container">
+                    <img src="./Images/vicks.jpg">
+                </div><div class="container">
+                    <h5 class="product-name">VICKS BABYRUB</h5>
+                    <h6>&#8377 100.8</h6>
+                   
+                </div>
+             </a> 
+             </div>
+             
+              
+             <div class="card Under999">
+             <a href="Sebamed.php">
+              <div class="image-container">
+                  <img src="./Images/sebamed-protective-facial-cream.jpg">
+              </div>
+              <div class="container">
+                  <h5 class="product-name">SEBAMED BABY PROTECTIVE FACIAL CREAM</h5>
+                  <h6>&#8377 723.35</h6>
+                 
+              </div>
+           
+             </a>
+             </div>
+             <div class="card Under499">
+                  <a href="BabyLotion.php">
+                   
                       <div class="image-container">
                           <img src="./Images/sebamed-baby-lotion-400ml-1-1632774259.jpg">
                       </div>
@@ -416,35 +438,49 @@
                           <h6>&#8377 241.4</h6>
                           
                       </div>
-                  </div>
-                  <div class="card Under 299">
-                      <div class="image-container">
-                          <img src="./Images/shampoo.jpg">
-                      </div><div class="container">
-                          <h5 class="product-name">JOHNSON'S  NO MORE TEARS BABY SHAMPOO BOTTLE</h5>
-                          <h6>&#8377 153.55</h6>
+                  
+                  </a></div>
+                  <div class="card Under299">
+                 <a href="Shampoo.php">
+                  
+                    <div class="image-container">
+                        <img src="./Images/shampoo.jpg">
+                    </div><div class="container">
+                        <h5 class="product-name">JOHNSON'S  NO MORE TEARS BABY SHAMPOO BOTTLE</h5>
+                        <h6>&#8377 153.55</h6>
+                       
+                    </div>
+
+                 </a></div>
+                 <div class="card Under499">
+                 <a href="Atolga.php">
+                 
+                    <div class="image-container">
+                        <img src="./Images/atogla-baby-cream-tube-of-100-g-2-1654078736.jpg">
+                    </div><div class="container">
+                        <h5 class="product-name">ATOGLA BABY CREAM TUBE</h5>
+                        <h6>&#8377 245.7</h6>
+                       
+               </div>
+               
+                 </a>
+                 </div>    
+                
+                  <div class="card Under99">
+                            <a href="BabySoap.php">
+                            <div class="image-container">
+                                   <img src="./Images/Johnsons-Baby-Milk-Soap.jpg">
+                         </div><div class="container">
+                                   <h5 class="product-name">JOHNSON'S BABY SOAP</h5>
+                          <h6>&#8377 97.75</h6>
                          
-                      </div></div>
-                      <div class="card Under 499">
-                          <div class="image-container">
-                              <img src="./Images/atogla-baby-cream-tube-of-100-g-2-1654078736.jpg">
-                          </div><div class="container">
-                              <h5 class="product-name">ATOGLA BABY CREAM TUBE</h5>
-                              <h6>&#8377 245.7</h6>
-                             
-                     </div></div><div class="card Under 99">
-                           <div class="image-container">
-                                  <img src="./Images/Johnsons-Baby-Milk-Soap.jpg">
-                        </div><div class="container">
-                                  <h5 class="product-name">JOHNSON'S BABY SOAP</h5>
-                         <h6>&#8377 97.75</h6>
-                        
-                        
-                      </div>
-                      <div>
+                         
+                       </div>
+                            </a>
+                       <div>
   
                       
-                </div>
+              
 
           </div>
         </div>

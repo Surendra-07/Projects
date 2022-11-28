@@ -19,6 +19,9 @@
       ::before {
         box-sizing: border-box;
       }
+      a{
+        text-decoration: none;
+      }
 
       #header {
         vertical-align: top;
@@ -370,8 +373,10 @@
           </div>
           <div id="products">
             
-            
+          
+              
           <div class="card under40">
+          <a href="combiflame.php">
             <div class="image-container">
                 <img src="Comiflame\combiflam-strip-of-20-tablets-1-1641534272.webp">
             </div>
@@ -380,8 +385,12 @@
                 <h6>&#8377 39</h6>
                
                 <div></div>
-            </div></div>
-            <div class="card under50">
+            </div> </a></div>
+           
+            
+         
+              <div class="card under50">
+              <a href="crosin.php">
                 <div class="image-container">
                     <img src="crosin\onav4rssxbdwvk1pedey.webp">
                 </div>
@@ -390,25 +399,56 @@
                     <h6>&#8377 49</h6>
                   
                 </div>
+                </a>
             </div>
-            <div class="card under200">
+          
+          
+              <div class="card under200">
+              <a href="dettol.php">
                 <div class="image-container">
                     <img src="Dettol\dettol-antiseptic-liquid-bottle-of-550-ml-2-1656923531.webp">
                 </div><div class="container">
                     <h5 class="product-name">DETTOL</h5>
                     <h6>&#8377 200</h6>
                    
-                </div></div><div class="card under40">
-                    <div class="image-container">
-                        <img src="Dolo\dolo-650mg-strip-of-15-tablets-2-1653986150.webp">
-                    </div>
-                    <div class="container">
-                        <h5 class="product-name">DOLO</h5>
-                        <h6>&#8377 29</h6>
-                       
-                    </div>
                 </div>
+                </a></div>
+            
+            
+            
+
+              <div class="card under40">
+              <a href="Dolo.php">
+                <div class="image-container">
+                    <img src="Dolo\dolo-650mg-strip-of-15-tablets-2-1653986150.webp">
+                </div>
+                <div class="container">
+                    <h5 class="product-name">DOLO</h5>
+                    <h6>&#8377 29</h6>
+                   
+                </div>
+                </a>
+            </div>
+
+            
+              
                 <div class="card under200">
+                <a href="hansplast.php">
+                  <div class="image-container">
+                      <img src="hansaplast\mipmonn7qzdgov83gvml.webp">
+                  </div>
+                  <div class="container">
+                      <h5 class="product-name">HANSAPLAST</h5>
+                      <h6>&#8377 190</h6>
+                      
+                  </div>
+                  </a>
+              </div>
+              
+                
+                  <div class="card under200">
+                  <a href="Meftal.php">
+
                     <div class="image-container">
                         <img src="hansaplast\mipmonn7qzdgov83gvml.webp">
                     </div>
@@ -417,50 +457,61 @@
                         <h6>&#8377 190</h6>
                         
                     </div>
+                    </a>
                 </div>
-                <div class="card under50">
-                    <div class="image-container">
-                        <img src="Meftal Spas\meftal-spas-tablet-2-1641531171.webp">
-                    </div><div class="container">
-                        <h5 class="product-name">MEFTAL SPAS</h5>
-                        <h6>&#8377 42.50</h6>
-                       
-                    </div></div>
+
+                
+                 
                     <div class="card under150">
-                        <div class="image-container">
-                            <img src="refresh eye drop\sswzofpcesatvgabnccq.webp">
-                        </div><div class="container">
-                            <h5 class="product-name">EYE DROP</h5>
-                            <h6>&#8377 143</h6>
-                           
-                   </div></div>
+                    <a href="eyedrop.php">
+                      <div class="image-container">
+                          <img src="refresh eye drop\sswzofpcesatvgabnccq.webp">
+                      </div><div class="container">
+                          <h5 class="product-name">EYE DROP</h5>
+                          <h6>&#8377 143</h6>
+                         
+                 </div>    </a></div>
+
+               
+    
                 <div class="card under40">
-                    <div class="image-container">
-                    <img src="Saridon\ftsmbwoi0gmmxgluxdn4.webp">
-                    </div>
-                    <div class="container">
-                        <h5 class="product-name">SARIDON</h5>
-                       <h6>&#8377 40</h6>
-                    </div>
-                </div>
+                <a href="Saridon.php">
+                  <div class="image-container">
+                  <img src="Saridon\ftsmbwoi0gmmxgluxdn4.webp">
+                  </div>
+                  <div class="container">
+                      <h5 class="product-name">SARIDON</h5>
+                     <h6>&#8377 40</h6>
+                  </div>
+                  </a>
+              </div>
+             
+             
                 <div class="card under200">
-                    <div class="image-container">
-                    <img src="Sevlon\savlon-antiseptic-disinfectant-liquid-1000-ml-2-1658475751.webp">
-                    </div>
-                    <div class="container">
-                        <h5 class="product-name">SEVLON</h5>
-                       <h6>&#8377 164</h6>
-                    </div>
-                </div>
-                <div class="card under150">
-                    <div class="image-container">
-                    <img src="Soframycin\soframycin-tube-of-30gm-skin-cream-1-1662962968.webp">
-                    </div>
-                    <div class="container">
-                        <h5 class="product-name">SOFRAMYCIN</h5>
-                       <h6>&#8377 140</h6>
-                    </div>
-                </div>
+                <a href="Sevlon.php">
+                  <div class="image-container">
+                  <img src="Sevlon\savlon-antiseptic-disinfectant-liquid-1000-ml-2-1658475751.webp">
+                  </div>
+                  <div class="container">
+                      <h5 class="product-name">SEVLON</h5>
+                     <h6>&#8377 164</h6>
+                  </div>
+                  </a>
+              </div>
+            
+               
+                <div class="card under200">
+                <a href="Soframycin.php">
+                  <div class="image-container">
+                  <img src="Sevlon\savlon-antiseptic-disinfectant-liquid-1000-ml-2-1658475751.webp">
+                  </div>
+                  <div class="container">
+                      <h5 class="product-name">SEVLON</h5>
+                     <h6>&#8377 164</h6>
+                  </div>
+                  </a>
+              </div>
+              
 
           </div>
         </div>
@@ -469,7 +520,6 @@
     
     <div class="footer-basic">
       <footer>
-          <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
           <ul class="list-inline">
               <li class="list-inline-item"><a href="#">Home</a></li>
               <li class="list-inline-item"><a href="#">Services</a></li>

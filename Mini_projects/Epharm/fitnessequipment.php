@@ -19,6 +19,9 @@
       ::before {
         box-sizing: border-box;
       }
+      a{
+        text-decoration:none;
+      }
 
       #header {
         vertical-align: top;
@@ -374,73 +377,7 @@
               </button>
             </div>
             <div id="products">
-              <div class="card Under250">
-                <div class="image-container">
-                  <img
-                    src="Fitness Care/Fish oil/nutrabay-wellness-fish-oil-omega-3-1000mg-60-capsules-2-1641792196.webp"
-                  />
-                </div>
-                <div class="container">
-                  <h5 class="product-name">FISH OIL</h5>
-                  <h6>&#8377 229</h6>
-                </div>
-              </div>
-              <div class="card Under400">
-                <div class="image-container">
-                  <img
-                    src="Fitness Care/Multivitamin/pharmeasy-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-2-1666336677.webp"
-                  />
-                </div>
-                <div class="container">
-                  <h5 class="product-name">MULTIVITAMIN</h5>
-                  <h6>&#8377 384</h6>
-                </div>
-              </div>
-              <div class="card Under350">
-                <div class="image-container">
-                  <img
-                    src="Fitness Care/Weight los/optimum-nutrition-on-serious-mass-weight-gain-powder-3-lbs-136-kg-vanilla-2-1641794675.webp"
-                  />
-                </div>
-                <div class="container">
-                  <h5 class="product-name">NUTRITION</h5>
-                  <h6>&#8377 350</h6>
-                </div>
-              </div>
-              <div class="card Under300">
-                <div class="image-container">
-                  <img
-                    src="Fitness Care/vital Multivitamin/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-capsules-2-1654077741.webp"
-                  />
-                </div>
-                <div class="container">
-                  <h5 class="product-name">VITAL MULTIVITAMIN</h5>
-                  <h6>&#8377 255</h6>
-                </div>
-              </div>
-              <div class="card Under600">
-                <div class="image-container">
-                  <img
-                    src="Fitness Care/protine/grd-chocolate-whey-protein-refill-of-400-g-1-1654078665.webp"
-                  />
-                </div>
-                <div class="container">
-                  <h5 class="product-name">PROTINE</h5>
-                  <h6>&#8377 600</h6>
-                </div>
-              </div>
-              <div class="card Under360">
-                <div class="image-container">
-                  <img
-                    src="Fitness Care/Zandu Chavanprash/zandu-chyavanprash-avaleha-900-gm-2-1641791682.webp"
-                  />
-                </div>
-                <div class="container">
-                  <h5 class="product-name">ZANDU CHAVANPRASH</h5>
-                  <h6>&#8377 316</h6>
-                </div>
-              </div>
-
+              
               <div></div>
             </div>
           </div>

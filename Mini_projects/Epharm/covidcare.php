@@ -19,6 +19,9 @@
       ::before {
         box-sizing: border-box;
       }
+      a{
+        text-decoration:none;
+      }
 
       #header {
         vertical-align: top;
@@ -374,51 +377,60 @@
             
             
             <div class="card Under900">
+                   <a href="Sanatizer.php">
                     <div class="image-container">
-                        <img src="Covid Care/Sanatizer/Screenshot 2022-11-21 110919.png">
-                    </div>
-                    <div class="container">
-                        <h5 class="product-name">SANATIZER</h5>
-                        <h6>&#8377 900</h6>
-                       
-                    </div>
+                      <img src="Covid Care/Sanatizer/Screenshot 2022-11-21 110919.png">
+                  </div>
+                  <div class="container">
+                      <h5 class="product-name">SANATIZER</h5>
+                      <h6>&#8377 900</h6>
+                     
+                  </div>
+                   </a>
                 </div>
                 <div class="card Under1900">
-                    <div class="image-container">
-                        <img src="./Oximeter/bpl-smart-oxy-finger-tip-pulse-black-oximeter-black-2-1654234561.webp">
+                    <a href="Oximeter.php">
+                      <div class="image-container">
+                        <img src="Covid Care/Oximeter/bpl-smart-oxy-finger-tip-pulse-black-oximeter-black-2-1654234561.webp">
                     </div>
                     <div class="container">
                         <h5 class="product-name">OXIMETER</h5>
                         <h6>&#8377 1899</h6>
                         
                     </div>
+                    </a>
                 </div>
                 <div class="card Under99">
+                  <a href="Thermometer.php">
                     <div class="image-container">
-                        <img src="./scanning Thermometer/pharmeasy-infrared-thermometer-2-1667628955.webp">
-                    </div><div class="container">
-                        <h5 class="product-name">SCANNING THERMOMETER</h5>
-                        <h6>&#8377 99</h6>
-                       
-                    </div></div>
+                      <img src="Covid Care/scanning Thermometer/pharmeasy-infrared-thermometer-2-1667628955.webp">
+                  </div><div class="container">
+                      <h5 class="product-name">SCANNING THERMOMETER</h5>
+                      <h6>&#8377 99</h6>
+                     
+                  </div>
+                  </a>    
+                </div>
                     <div class="card Under49">
-                        <div class="image-container">
+                        <a href="Gloves.php">
+                          <div class="image-container">
                             <img src="Covid Care/Gloves/2_12_4.webp">
                         </div><div class="container">
                             <h5 class="product-name">GLOVES</h5>
                             <h6>&#8377 49</h6>
                            
-                   </div></div>
+                   </div>
+                        </a></div>
                    <div class="card Under600">
-                         <div class="image-container">
-                                <img src="Covid Care/Mask/Screenshot 2022-11-21 105311.png">
-                      </div><div class="container">
-                                <h5 class="product-name">MASK</h5>
-                       <h6>&#8377 600</h6>
+                        <a href="Mask.php"> <div class="image-container">
+                          <img src="Covid Care/Mask/Screenshot 2022-11-21 105311.png">
+                </div><div class="container">
+                          <h5 class="product-name">MASK</h5>
+                 <h6>&#8377 600</h6>
 
-                      
-                      
-                    </div>
+                
+                
+              </div></a>
                     <div>
                         
                         
