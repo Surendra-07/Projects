@@ -19,6 +19,9 @@
       ::before {
         box-sizing: border-box;
       }
+      a{
+        text-decoration:none;
+      }
 
       .glowing-button {
         background-image: linear-gradient(45deg,#ac3dfc,#6148fd,#00ccff,#1900ff,#1e0db9,#8400ff);
@@ -473,14 +476,17 @@ input:nth-of-type(5):checked ~ main#carousel {
             
             
           <div class="card under1999">
-                    <div class="image-container">
-                        <img src="HEALTHCARE IMG/Oximeter/bpl-smart-oxy-finger-tip-pulse-black-oximeter-black-2-1654234561.webp">
-                    </div>
-                    <div class="container">
-                        <h5 class="product-name">OXIMETER</h5>
-                        <h6>₹ 1872</h6>
-                       
-                    </div>
+                   <a href="Oximeter.php">
+                   <div class="image-container">
+                      
+                      <img src="HEALTHCARE IMG/Oximeter/bpl-smart-oxy-finger-tip-pulse-black-oximeter-black-2-1654234561.webp">
+                  </div>
+                  <div class="container">
+                      <h5 class="product-name">OXIMETER</h5>
+                      <h6>₹ 1872</h6>
+                     
+                  </div>
+                   </a>
                 </div>
                 
 
@@ -545,7 +551,6 @@ input:nth-of-type(5):checked ~ main#carousel {
     
     <div class="footer-basic">
       <footer>
-          <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
           <ul class="list-inline">
               <li class="list-inline-item"><a href="#">Home</a></li>
               <li class="list-inline-item"><a href="#">Services</a></li>
